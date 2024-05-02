@@ -1,0 +1,69 @@
+.navbar {
+  background-color: #2697c0;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  position: relative;
+  z-index: 2;
+}
+
+.top-row {
+  margin-bottom: 10px; /* Add margin between top row and bottom row */
+}
+
+.bottom-row {
+  display: flex;
+  justify-content: space-between; /* Change to space-between to evenly distribute items */
+  width: 15%;
+}
+
+.nav-link {
+  color: white;
+  text-decoration: none;
+  margin: 5px; /* Adjust margin for spacing */
+  display: flex;
+  align-items: center;
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.nav-icon {
+  margin-right: 5px;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+@media screen and (max-width: 768px) {
+  .nav-link {
+    font-size: 14px;
+    margin: 3px; /* Further reduce margin for smaller screens */
+  }
+
+  .nav-icon {
+    margin-right: 3px;
+  }
+
+  .bottom-row {
+    width: 130%; /* Make bottom row full width for smaller screens */
+    justify-content: center; /* Center items for smaller screens */
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .nav-link {
+    font-size: 12px; /* Decrease font size further for smaller screens */
+  }
+
+  .nav-icon {
+    margin-right: 2px; /* Further reduce margin for smaller screens */
+  }
+}

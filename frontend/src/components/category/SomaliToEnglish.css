@@ -1,0 +1,81 @@
+.somali-to-english-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: justify;
+  color: black;
+}
+
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.search-input {
+  flex: 1;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.search-button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2596BE;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-left: 10px;
+}
+
+.search-button:hover {
+  background-color: #0a2738;
+}
+
+.word-list {
+  list-style: none;
+  padding: 0;
+}
+
+.word-list-item {
+  margin-top: 10px;
+}
+
+.word-link {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.word-link:hover {
+  text-decoration: underline;
+}
+
+.word-details {
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.search-result {
+  margin-top: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Media query for mobile screens */
+@media screen and (max-width: 600px) {
+  .somali-to-english-container {
+    width: 90%;
+    margin-top: 5%;
+  }
+
+  .search-input {
+    width: 100%;
+  }
+}

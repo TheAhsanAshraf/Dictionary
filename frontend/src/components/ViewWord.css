@@ -1,0 +1,59 @@
+.view-word-container {
+  width: 80%;
+  max-width: 400px;
+  margin: 10% auto;
+  padding: 20px;
+  background-color: #9fd5ea;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+}
+
+.update-form-container {
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  width: 80%;
+  margin: 10px auto;
+  display: block;
+}
+
+.deleted-message {
+  padding: 10px;
+  background-color: #f8d7da;
+  color: #721c24;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2596BE;
+  color: rgb(255, 251, 251);
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0a2738;
+}
+
+/* Ensure buttons are displayed inline */
+.view-word-container > div {
+  display: flex;
+  justify-content: center;
+  gap: 10px; /* Space between buttons */
+}
+
+/* Media query for mobile responsiveness */
+@media screen and (max-width: 600px) {
+  .view-word-container {
+    width: 90%; /* Adjust width for smaller screens */
+  }
+}

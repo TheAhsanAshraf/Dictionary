@@ -1,0 +1,108 @@
+.add-word-container {
+  width: 90%;
+  max-width: 400px; /* Limit width to fit mobile screens */
+  margin: auto;
+  margin-top: 150px;
+  padding: 20px;
+  background-color: #9fd5ea;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Drop shadow effect */
+  text-align: center;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group select,
+.form-group input[type="text"] {
+  width: 100%; /* Full width on all screens */
+  padding: 10px;
+  border: 3px solid #29708d; /* Blue border */
+  border-radius: 5px;
+  transition: border-color 0.3s ease; /* Smooth hover effect */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.form-group select:focus,
+.form-group input[type="text"]:focus {
+  outline: none;
+}
+
+.form-group select:hover,
+.form-group input[type="text"]:hover {
+  border-color: black; /* Black border on hover */
+}
+
+
+input[type="text"],
+select {
+  width: 100%; /* Full width on all screens */
+  padding: 10px;
+  border: 2px solid #4d6c78; /* Blue border */
+  border-radius: 5px;
+  transition: border-color 0.3s ease; /* Smooth hover effect */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+} 
+
+input[type="text"]:focus,
+select:focus {
+  outline: none;
+}
+
+input[type="text"]:hover,
+select:hover {
+  border-color: black; /* Black border on hover */
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #2596BE;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+button:hover {
+  background-color: #0a2738; /* Darker blue on hover */
+}
+
+.error-message,
+.success-message {
+  margin-top: 15px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.error-message {
+  background-color: #ffb3b3; /* Light red background for error message */
+  color: #cc0000;
+}
+
+.success-message {
+  background-color: #c0f9bd; /* Light green background for success message */
+  color: #006400;
+}
+
+/* Category box styling */
+.select-category {
+  width: 100%; /* Full width on all screens */
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #79c2dc;
+  transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+
+.select-category:hover {
+  background-color: #33536e; /* Light blue on hover */
+}
